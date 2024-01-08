@@ -31,7 +31,7 @@ select {
   height: 40px;
   outline: none;
   border: none;
-  background-color: #d1d5db;
+  background-color: #e5e7eb;
 }
 
 .temp select {
@@ -64,6 +64,7 @@ select {
   justify-content: center;
   align-items: center;
   font-size: 75px;
+  color: #fff;
 }
 
 .de {

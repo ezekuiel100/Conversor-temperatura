@@ -10,6 +10,8 @@ botaoConverter.addEventListener("click", () => {
 });
 
 function converterTemperatura(unidade, temperatura) {
+  if (temperatura == "") return;
+
   let temp;
   temperatura = Number(temperatura);
 
