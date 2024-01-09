@@ -8,17 +8,17 @@
   </head>
   <body>
     <main>
-      <div class="converter">
-        <div class="de">
-          <span>Temperatura:</span>
-          <div class="temp">
+      <div class="converter-temperatura">
+        <div class="unidade-origem">
+          <label>Temperatura:</label>
+          <div class="entrada-temperatura">
             <input
               type="number"
               name=""
               id="temperatura"
-              placeholder="Digite temperatura"
+              placeholder="Digite a temperatura"
             />
-            <select class="deTemp">
+            <select class="unidade-origem-select">
               <option value="C">C</option>
               <option value="F">F</option>
               <option value="K">K</option>
@@ -26,9 +26,9 @@
           </div>
         </div>
 
-        <div class="para">
-          <span>Converter para:</span>
-          <select class="paraTemp">
+        <div class="unidade-destino">
+          <label>Converter para:</label>
+          <select class="unidade-destino-select">
             <option value="F">Fahrenheit</option>
             <option value="K">Kelvin</option>
             <option value="C">Celsius</option>

@@ -2,11 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
 }
 
 body {
   height: 100vh;
+  font-family: sans-serif;
   display: grid;
   background-color: #e5e7eb;
   justify-content: center;
@@ -17,7 +17,7 @@ main {
   display: flex;
 }
 
-.converter {
+.converter-temperatura {
   display: flex;
   flex-direction: column;
   gap: 35px;
@@ -26,7 +26,7 @@ main {
   width: 350px;
 }
 
-.converter input,
+.converter-temperatura input,
 select {
   height: 40px;
   outline: none;
@@ -34,7 +34,7 @@ select {
   background-color: #e5e7eb;
 }
 
-.temp select {
+.entrada-temperatura select {
   width: 50px;
   background-color: #18aaee;
   text-align: center;
@@ -43,12 +43,12 @@ select {
   font-weight: bold;
 }
 
-.temp {
+.entrada-temperatura {
   display: flex;
   justify-content: space-between;
 }
 
-.temp input {
+.entrada-temperatura input {
   flex-grow: 1;
 
   padding: 5px;
@@ -67,12 +67,12 @@ select {
   color: #fff;
 }
 
-.de {
+.unidade-origem {
   margin-top: 30px;
 }
 
-.de,
-.para {
+.unidade-origem,
+.unidade-destino {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -80,7 +80,7 @@ select {
   height: 100px;
 }
 
-.para select {
+.unidade-destino select {
   font-size: 16px;
 }
 
