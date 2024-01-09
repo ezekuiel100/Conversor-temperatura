@@ -21,7 +21,7 @@ botaoConverter.addEventListener("click", () => {
 });
 
 function converterTemperatura(unidade, temperatura) {
-  if (temperatura == "") return;
+  if (temperatura === "") return;
 
   let funcaoConversao = conversoes[unidade];
 
