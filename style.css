@@ -45,12 +45,10 @@ select {
 
 .entrada-temperatura {
   display: flex;
-  justify-content: space-between;
 }
 
 .entrada-temperatura input {
   flex-grow: 1;
-
   padding: 5px;
   font-size: 16px;
 }
